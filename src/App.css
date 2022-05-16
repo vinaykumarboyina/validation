@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
+.app-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.responsive-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:90%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.validation-heading{
+  background-color: rgb(248, 249, 250);
+  font-family: "Roboto";
+  font-size:18px;
+  padding:10px;
+  text-align: left;
+  width:88%;
 }
+table{
+  
+  width:90%;
+}
+.th{
+  background-color: green;
+  color:rgb(205, 246, 235);
+  font-family:"Roboto";
+  font-size:15px;
+  padding:15px;
+  text-align: left;
+  width:25%;
+  
+  
+  
+}
+th{
+  text-align: left;
+  padding:15px;
+}
+.fungicide-heading{
+  font-family:"Roboto";
+  font-size:15px;
+  padding:10px;
+}
+td{
+  border:1px solid rgb(252, 232, 232);
+  padding:10px;
+  text-align: left;
+}
+.miravis-data-heading{
+  display:flex;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+  border:2px solid rgb(229, 226, 226);
+  padding:6px;
+  font-family: "Roboto";
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.reg-icon{
+  margin-left:5px;
+}
+.container{
+  display:flex;
+  align-items: center;
+}
+.gallons-container{
+  background-color: rgb(246, 246, 246);
+  border:2px solid rgb(229, 226, 226);
+  padding:6px;
+  font-family: "Roboto";
+  width:60%;
+  
+}
+.gallons-heading{
+  background-color:rgb(237, 237, 237);
+  font-family: "Roboto";
+  font-size:15px;
+  width:fit-content;
+  padding:8px;
+}
+.gallons-value{
+  font-family: "Roboto";
+  font-size:15px;
+  margin-right:35px;
+}
+.heading{
+  font-family: "Roboto";
+  font-size:15px;
+}
+.select-heading{
+  background-color:rgb(237, 237, 237);
+  font-family: "Roboto";
+  font-size:15px;
+  padding:8px;
+  width:fit-content;
+}
+.box{
+  background-color: rgb(246, 246, 246);
+  border:2px solid rgb(229, 226, 226);
+  padding:12px;
+
+}
+.container1{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items:center;
+  
+}
+.list-container{
+  display:flex;
+  width:auto;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-wrap:wrap;
+}
+.list-item{
+  border:1px solid rgb(229, 226, 226);
+  border-radius:6px;
+  padding-top:10px;
+  width:44%;
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  
+  margin-right:20px;
+  margin-bottom: 20px;
+  
+}
+.area-container{
+  display:flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  
+  padding-top:10px;
+  
+}
+.committed-area{
+  color:rgb(105, 101, 101);
+  font-family:"Roboto";
+  font-size:18px;
+  border-left: 3px solid green;
+  padding-left:10px;
+  margin-bottom: 0px;
+  
+}
+.area{
+  color:green;
+  font-family:"Roboto";
+  border-left: 3px solid green;
+  font-size:25px;
+  margin-top: 0px;
+  padding-left:10px;
+  padding-top:5px;
+}
+.icon-container{
+  background-color: rgb(221, 255, 252);
+  border-radius:15px;
+  height:30px;
+  width:30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top:5px;
+  margin-right: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.icon{
+  font-size:15px;
+  color:green
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.information-container{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:5px;
+  background-color: rgb(230, 252, 248);
+  height:20px;
+}
+.information{
+  font-family:"Roboto";
+  font-size:15px;
+}
+.acre-container{
+  display:flex;
+  align-items: center;
+  border-left: 3px solid green;
+  padding-left: 10px;
+}
+.acre{
+  background-color: rgb(246, 246, 246);
+  border:2px solid rgb(229, 226, 226);
+  padding:6px;
+  font-family: "Roboto";
+  width:60%;
+  padding-right:50px;
 }
